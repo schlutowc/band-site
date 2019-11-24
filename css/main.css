@@ -1,0 +1,90 @@
+.grid-container div.header {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/000/140/876/large_2x/vector-green-seamless-leaf-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.sidebar #ad-photo {
+  background-image: url("https://picsum.photos/200/200");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+}
+.wrapper {
+  display: flex;
+  flex: wrap;
+  flex-direction: row;
+  max-width: 500px;
+  margin: auto;
+}
+.wrapper1{
+  margin: auto;
+}
+.header {
+  text-align: center;
+}
+
+/* .keyboard-nav{
+  margin: auto;
+} */
+.key {
+  display: flex;
+  flex-direction: row;
+
+  background: white;
+  width: 200px;
+  height: 350px;
+  margin: auto;
+  border: 5px solid black;
+  padding: 10px;
+}
+
+.board {
+  height: 100px;
+  width: 500px;
+  background: black;
+  text-align: center;
+  margin: auto;
+}
+
+a:hover {
+  color: red;
+}
+
+.key:hover {
+  background-color: black;
+  color: white;
+}
+
+.head:hover {
+  background-color: black;
+  color: white;
+}
+
+h3:hover {
+  color: black;
+  color: white;
+}
+
+.footer {
+  margin: auto;
+}
+h1{
+  text-align: center;
+}
+.center{
+  text-align: center; 
+  position: relative;
+  display: inline-block;
+}
+.text{
+  position: absolute;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 40%;
+}
